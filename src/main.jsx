@@ -236,8 +236,8 @@ function App() {
           <div className="section-heading"><span className="heading-icon"><Award size={18}/></span><div><span className="section-kicker">PROFESSIONAL DEVELOPMENT</span><h3>Certificates &amp; Credentials</h3></div></div>
           <div className="certificate-grid">
             {[
-              { issuer: "Oracle University", title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional", image: "/certificates/oracle-genai.pdf", pdf: true },
-              { issuer: "Oracle University", title: "Oracle Cloud Infrastructure 2025 Certified Developer Professional", image: "/certificates/oracle-dev.pdf", pdf: true },
+              { issuer: "Oracle University", title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional", image: "/certificates/oracle-genai.png", imageClass: "certificate-image-contain" },
+              { issuer: "Oracle University", title: "Oracle Cloud Infrastructure 2025 Certified Developer Professional", image: "/certificates/oracle-dev.png", imageClass: "certificate-image-contain" },
               { issuer: "Amazon Web Services (AWS) / Forage", title: "AWS Solutions Architecture Job Simulation", image: "/certificates/aws.png" },
               { issuer: "JPMorgan Chase & Co. / Forage", title: "Software Engineering Job Simulation", image: "/certificates/JP.png" },
               { issuer: "Deloitte / Forage", title: "Data Analytics Job Simulation", image: "/certificates/deloite.png" },
@@ -245,9 +245,9 @@ function App() {
               { issuer: "Accenture / Forage", title: "Software Engineering Job Simulation", image: "/certificates/accenture.png" },
               { issuer: "OneRoadmap", title: "DevOps Engineer", image: "/certificates/oneroad.png" },
               { issuer: "EduSkills Academy", title: "Java Full Stack With Project", image: "/certificates/eduskill.png" }
-            ].map(({ issuer, title, image, pdf }) => <article className="certificate-card" key={`${issuer}-${title}`}>
+            ].map(({ issuer, title, image, imageClass }) => <article className="certificate-card" key={`${issuer}-${title}`}>
               <a className="certificate-image-link" href={image} target="_blank" rel="noreferrer" aria-label={`Open certificate for ${title}`}>
-                {pdf ? <iframe src={`${image}#toolbar=0&navpanes=0&scrollbar=0`} title={`${issuer} ${title} preview`} tabIndex="-1"/> : <img src={image} alt={`${issuer} ${title} certificate`}/>}
+                <img className={imageClass} src={image} alt={`${issuer} ${title} certificate`}/>
                 <span className="certificate-open"><ExternalLink size={14}/></span>
               </a>
               <div className="certificate-card-info"><span className="certificate-issuer">{issuer}</span><h4>{title}</h4></div>

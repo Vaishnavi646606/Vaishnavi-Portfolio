@@ -1,6 +1,7 @@
 # Vaishnavi Shewale — Portfolio
 
 Responsive React + Vite portfolio with a dark navy / neon pink visual theme and your uploaded portrait.
+
 **LIVE LINK**: https://vaishnavi-portfolio-sand.vercel.app/
 
 ## Run locally

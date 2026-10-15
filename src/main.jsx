@@ -12,6 +12,8 @@ const LINKS = {
   github: "https://github.com/Vaishnavi646606",
   linkedin: "https://www.linkedin.com/in/vaishnavi-shewale-846861248",
   retailpulse: "https://github.com/Vaishnavi646606/RetailPulse-End-to-end-E-commerce-Analytics-and-Data-Engineering-Project",
+  fitscore: "https://fit-score-beta.vercel.app/",
+  safesphere: "https://github.com/Vaishnavi646606/SafeSphere---The-Safety-App",
   email: "mailto:vaishnavishewale10@gmail.com",
   phone: "tel:+918468807561"
 };
@@ -52,7 +54,7 @@ const projects = [
     desc: "FitScore — AI Resume & Job Matching Platform",
     tags: ["Python", "FastAPI", "Node.js", "React", "MongoDB", "Gemini", "LangGraph", "RAG", "Docker"],
     icon: BrainCircuit,
-    link: LINKS.github, tone: "violet",
+    link: LINKS.fitscore, tone: "violet",
     highlights: [
       "Built an AI-powered resume–job matching platform combining skill matching, TF-IDF and MiniLM-based semantic similarity into an explainable FitScore.",
       "Implemented MongoDB vector search and RAG with Gemini for grounded job recommendations and explanations; added LangGraph tool calling, state persistence and human-in-the-loop approval for agentic workflows.",
@@ -64,7 +66,7 @@ const projects = [
     desc: "SafeSphere – Safety App for Women & Elderly",
     tags: ["Java", "Android Studio", "Vosk API", "React", "Next.js", "Supabase"],
     icon: Heart,
-    link: LINKS.github, tone: "blue",
+    link: LINKS.safesphere, tone: "blue",
     highlights: [
       "Developed an Android safety application with 92% detection accuracy for voice-keyword and shake-trigger SOS activation.",
       "Implemented secure emergency contact storage and a sequential calling workflow to quickly alert trusted contacts.",

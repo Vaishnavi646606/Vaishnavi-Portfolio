@@ -1,7 +1,7 @@
-# Vaishnavi Shewale — Portfolio
+<img width="1172" height="917" alt="image" src="https://github.com/user-attachments/assets/17b751d0-1806-4298-b64b-564efdbea978" /># Vaishnavi Shewale — Portfolio
 
 Responsive React + Vite portfolio with a dark navy / neon pink visual theme and your uploaded portrait.
-
+LIVE LINK: https://vaishnavi-portfolio-sand.vercel.app/
 ## Run locally
 1. Install Node.js (LTS).
 2. Extract this ZIP and open the folder in VS Code.
